@@ -27,16 +27,9 @@ namespace Test
                 Console.WriteLine(sideA * sideB);
             }else if (shape == "3")
             { 
-                
                 Console.WriteLine(bigB + sideB * verticalA / 2);
             }
-
-
-
-            {
-                Console.WriteLine();
-            }
-
+            
             Console.ReadLine();
         }
     }
