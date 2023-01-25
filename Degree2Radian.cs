@@ -15,9 +15,5 @@ class Program
         Console.WriteLine("Radians: " + output);
 
         Console.ReadLine();
-
-
     }
-
-
 }
