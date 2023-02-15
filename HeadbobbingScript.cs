@@ -7,7 +7,6 @@ public class HeadBobbingScript : MonoBehaviour
     public GameObject Camera;
     void Start()
     {
-        
     }
 
     void Update()
@@ -57,9 +56,9 @@ public class HeadBobbingScript : MonoBehaviour
     {
         Camera.GetComponent<Animator>().Play("HeadBobbing");
     }
-
     void StopBobbing()
     {
         Camera.GetComponent<Animator>().Play("New State");
     }
+    
 }
