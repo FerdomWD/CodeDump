@@ -14,7 +14,7 @@ namespace LearnCSharp
                        "Edward", "Fred", "Frank", "George", "Hal", "Hank", "Ike",
                        "John", "Jack", "Joe", "Larry", "Monte", "Matthew", "Mark",
                        "Nathan", "Otto", "Paul", "Peter", "Roger", "Roger", "Steve",
-                       "Thomas", "Tim", "Ty", "Victor", "Walter" };
+                       "Thomas", "Tim", "Ty", "Victor", "Walter", "Luke" };
 
                 Random rnd = new Random();
                 int randomMaleName = rnd.Next(0, maleNames.Length);
